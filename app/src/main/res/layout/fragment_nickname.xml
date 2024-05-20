@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반가워요!\n캠퍼님의 닉네임을 정해주세요 "
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_round"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:gravity="center"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="32dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
